@@ -1,0 +1,24 @@
+/* ChatGPT-style streaming cursor animation */
+@keyframes chatgpt-cursor {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
+
+.chatgpt-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1.2em;
+  background-color: currentColor;
+  margin-left: 2px;
+  animation: chatgpt-cursor 1s infinite;
+  vertical-align: text-bottom;
+}
+
+/* Ensure cursor appears at the end of text */
+.streaming-text {
+  position: relative;
+}

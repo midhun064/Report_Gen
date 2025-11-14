@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "method": "manual_verification",
+  "checklist_file": "manual_verification_checklist.txt",
+  "accessibility": {
+    "accessible": false,
+    "status_code": 302,
+    "message": "Sheet requires authentication or is private"
+  }
+}
